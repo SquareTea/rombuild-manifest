@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+  <remote name="tea"
+          fetch="https://github.com/areyoudeveloper" />
+
+  <!-- Trees -->
+  <project path="device/xiaomi/ginkgo" name="device_xiaomi_ginkgo" remote="tea" revision="A13" />
+  <project path="kernel/xiaomi/ginkgo" name="android_kernel_xiaomi_ginkgo" remote="tea" revision="origin/main" />
+  <project path="vendor/xiaomi/ginkgo" name="vendor_xiaomi_ginkgo" remote="tea" revision="13" />
+  
+  <!-- MIUI Camera -->
+  <project path="vendor/miuicamera" name="vendor_miuicamera" remote="tea" revision="A13" />
+  
+</manifest>
